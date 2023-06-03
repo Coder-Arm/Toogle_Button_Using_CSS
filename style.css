@@ -22,14 +22,15 @@ h1 {
   width: 2.75rem;
   height: 2.58rem;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(0, 255, 242);
   transition: transform 300ms linear;
 }
 input[type="checkbox"]:checked + .switch::before {
   transform: translate(2.8rem);
+  background-color: white;
 }
 input[type="checkbox"]:checked + .switch {
-  background-color: lightcoral;
+  background-color: rgb(0, 255, 242);
 }
 
 input[type="checkbox"] {
